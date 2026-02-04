@@ -1,0 +1,40 @@
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+body {
+    background-image: url(images/skate.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #cccccc;
+}
+
+.image-row-container {
+  display: flex;
+  justify-content: space-around; /* Distributes space evenly around images */
+  align-items: center; /* Aligns images vertically in the middle */
+  gap: 0px; /* Adds space between images */
+}
+
+.image:hover{
+transform: translateY(-10px);
+};
+
+.empty{
+    height: 100%;
+    width: 20%;
+}
+.strip{
+    display: flex;
+  justify-content: space-around; /* Distributes space evenly around images */
+}
+
+.image-strip{
+    background-color: #000000;
+}
+
